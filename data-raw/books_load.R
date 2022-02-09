@@ -1,6 +1,6 @@
 ## code to prepare `DATASET` dataset goes here
 
-usethis::use_data(DATASET, overwrite = TRUE)
+#usethis::use_data(DATASET, overwrite = TRUE)
 
 library(gutenbergr)
 pacman::p_load(tidyverse,rio)
